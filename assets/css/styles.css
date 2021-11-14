@@ -6,7 +6,7 @@
   --header-height: 3.5rem; /*56px*/
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
+  /*Color mode (hue, saturation, lightness)*/
   --hue: 152;
   --first-color: hsl(var(--hue), 24%, 32%);
   --first-color-alt: hsl(var(--hue), 24%, 28%);
@@ -87,7 +87,7 @@ body {
   margin: var(--header-height) 0 0 0;
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: 0.4s; /*For animation dark mode*/
+  transition: 0.4s; /*For animation*/
 }
 
 button {
@@ -168,7 +168,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  transition: 0.4s; /*For animation dark mode*/
+  transition: 0.4s; /*For animation */
 }
 
 /*=============== NAV ===============*/
@@ -201,7 +201,7 @@ img {
 }
 
 .nav__logo:hover {
-  color: #000;
+  color: #f8857598;
 }
 
 .nav__toggle {
@@ -695,6 +695,7 @@ img {
 .contact__input:focus + .contact__label {
   top: -0.75rem;
   left: 0;
+  color: #fe6551;
   font-size: var(--smaller-font-size);
   z-index: 10;
 }
